@@ -1,0 +1,12 @@
+[project]
+name = "agentic-production-reference"
+version = "0.1.0"
+description = "Reference architecture for taking agentic AI and LLM systems into production"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+asyncio_mode = "auto"
+
+[tool.ruff]
+line-length = 100
